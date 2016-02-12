@@ -1,0 +1,30 @@
+body {
+    background-color: #fbfbfb;
+}
+
+.logIn {
+	font-size: 20px;
+}
+
+.fc-event {
+	border: 1px solid #009688;
+}
+
+#login-buttons .login-button {
+  position: relative;
+  display: block;
+  margin: 5px 5px 5px 5px;
+  padding: 7px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #009688;
+  color: #ecf0f1;
+  transition: background-color .3s;
+}
+
+.login-button:hover, .login-button:focus {
+  background-color: #007d71;
+}
